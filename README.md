@@ -1,2 +1,3 @@
-# Zoom
-A full stack video conferencing web application.
+# Projects
+
+This is my MERN project with frontend and backend.
