@@ -1,74 +1,63 @@
-# Projects
+# Live Video Conferencing and Chat Web Application
 
-Project Title
+## Project Description
+This project is a web-based Live Video Conferencing and Real-Time Chat application similar to Zoom.  
+It allows users to create or join meeting rooms and communicate using live video, audio, real-time chat, and screen sharing.
 
-Real-Time Video Conferencing & Chat Web Application
+The project is developed as a minor project for academic purposes.
 
- Project Description
+## Technologies Used
+- React.js (Frontend)
+- WebRTC (Live video and audio communication)
+- Socket.io (Real-time chat)
+- Node.js
+- Express.js
+- MongoDB
 
-This project is a browser-based real-time video conferencing and chat application inspired by platforms like Zoom. It allows users to create or join meetings, communicate through live video and audio, and exchange messages in real time.
-The project is developed for academic learning to understand real-time web communication and frontend–backend interaction.
+## Team Members
+- Ravi Mali (Roll No: 23CA2581048)
+- Ketan Goyal (Roll No: 23CA2581032)
+- Ritik Chaturvedi (Roll No: 23CA2611043)
 
- Objectives
+## Deployment Link
+https://minor-project-n6mx.onrender.com
 
-To build a real-time communication platform
+## How to Use the Application
 
-To understand video calling using WebRTC
+This application allows users to connect through live video calling, real-time chat, and screen sharing.
 
-To implement real-time chat using Socket.IO
+### 1. User Registration
+- Open the application in the browser.
+- Click on **Register**.
+- Enter your **Name, Username, and Password**.
+- Submit the form to create a new account.
 
-To learn frontend and backend integration
+### 2. User Login
+- Click on **Login**.
+- Enter your **Username and Password**.
+- Login successfully to access the application.
 
- Technology Stack
+### 3. Start or Join a Meeting
+- After login, click on **Get Started**.
+- Enter a **Meeting Code**.
+- Click on the **Join** button.
 
-Frontend:
+### 4. Enter Username
+- After clicking Join, enter your **Username/Name**.
+- Click on the **Connect** button.
 
-HTML
+### 5. Share Meeting Code
+- Share the same **Meeting Code** with another user to join the meeting.
 
-CSS
+### 6. Join by Another User
+- The second user opens the application.
+- Enters the same **Meeting Code**.
+- Clicks on the **Join** button.
+- Enters **Username/Name**.
+- Clicks on **Connect**.
 
-JavaScript
-
-Backend:
-
-Node.js
-
-Express.js
-
-Real-Time Communication:
-
-WebRTC (Video & Audio)
-
-Socket.IO (Chat & Signaling)
-
- Features
-
-Live video and audio conferencing
-
-Real-time chat system
-
-Multiple user support
-
-Meeting creation and joining
-
-Browser-based (no app installation required)
-
-Project Architecture
-
-Frontend handles user interface
-
-Backend manages server and connections
-
-Socket.IO handles real-time messaging and signaling
-
-WebRTC enables peer-to-peer video communication
-
- How to Run the Project
-
-Clone the repository
-
-Install dependencies using npm install
-
-Start the server using npm start
-
-Open the project in the browser
+### 7. Meeting Features
+- Live video and audio communication
+- Real-time chat messaging
+- Screen sharing for presentations and collaboration
+- Simple and user-friendly interface
